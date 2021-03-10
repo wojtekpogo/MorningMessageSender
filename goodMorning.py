@@ -21,7 +21,7 @@ def send_message(quote):
  message = client.messages.create(
                             body=quote,
                             from_='whatsapp:+14155238886',
-                            to='whatsapp:+353833012337')
+                            to='whatsapp: number of your SO goes here')
   # print(message.sid)
 
 #generates the random quote
